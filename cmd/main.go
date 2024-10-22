@@ -6,8 +6,8 @@ import (
 
 	"net/http"
 
+	"github.com/notblinkyet/Crud/internal/services"
 	"github.com/notblinkyet/Crud/pkg/config"
-	"github.com/notblinkyet/Crud/pkg/services"
 	"github.com/notblinkyet/Crud/pkg/storage"
 	"github.com/notblinkyet/Crud/pkg/storage/posgresql"
 )
