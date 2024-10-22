@@ -3,7 +3,8 @@ package handlers
 import (
 	"fmt"
 	"net/http"
-	"simple_crud/pkg/storage"
+
+	"github.com/notblinkyet/Crud/pkg/storage"
 )
 
 func ReadAllHandler(dbStorage storage.Storage) http.HandlerFunc {

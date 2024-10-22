@@ -2,8 +2,9 @@ package services
 
 import (
 	"net/http"
-	"simple_crud/pkg/storage"
-	"simple_crud/pkg/transport/handlers"
+
+	"github.com/notblinkyet/Crud/pkg/storage"
+	"github.com/notblinkyet/Crud/pkg/transport/handlers"
 )
 
 type server struct {

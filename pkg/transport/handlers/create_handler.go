@@ -3,9 +3,10 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-	"simple_crud/pkg/models"
-	"simple_crud/pkg/storage"
 	"strconv"
+
+	"github.com/notblinkyet/Crud/pkg/models"
+	"github.com/notblinkyet/Crud/pkg/storage"
 )
 
 func CreateHandler(dbStorage storage.Storage) http.HandlerFunc {

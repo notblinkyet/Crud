@@ -2,7 +2,8 @@ package posgresql
 
 import (
 	"context"
-	"simple_crud/pkg/models"
+
+	"github.com/notblinkyet/Crud/pkg/models"
 )
 
 func (storage *PostgresStorage) ReadId(id int) (*models.Task, error) {

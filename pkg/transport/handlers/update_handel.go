@@ -3,8 +3,9 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
-	"simple_crud/pkg/storage"
 	"strconv"
+
+	"github.com/notblinkyet/Crud/pkg/storage"
 )
 
 type Update struct {

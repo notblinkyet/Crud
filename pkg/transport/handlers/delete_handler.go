@@ -2,8 +2,9 @@ package handlers
 
 import (
 	"net/http"
-	"simple_crud/pkg/storage"
 	"strconv"
+
+	"github.com/notblinkyet/Crud/pkg/storage"
 )
 
 func DeleteHandler(dbStorage storage.Storage) http.HandlerFunc {
