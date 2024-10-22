@@ -2,7 +2,10 @@ module simple_crud
 
 go 1.22.5
 
-require github.com/jackc/pgx/v4 v4.18.3
+require (
+	github.com/jackc/pgx/v4 v4.18.3
+	gopkg.in/yaml.v3 v3.0.1
+)
 
 require (
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
@@ -14,5 +17,4 @@ require (
 	github.com/jackc/pgtype v1.14.0 // indirect
 	golang.org/x/crypto v0.20.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

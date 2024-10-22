@@ -5,10 +5,10 @@ import (
 	"log"
 
 	"net/http"
-	"simple_crud/internal/config"
-	"simple_crud/internal/services"
-	"simple_crud/internal/storage"
-	"simple_crud/internal/storage/posgresql"
+	"simple_crud/pkg/config"
+	"simple_crud/pkg/services"
+	"simple_crud/pkg/storage"
+	"simple_crud/pkg/storage/posgresql"
 )
 
 var db storage.Storage

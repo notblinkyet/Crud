@@ -2,8 +2,8 @@ package services
 
 import (
 	"net/http"
-	"simple_crud/internal/storage"
-	"simple_crud/internal/transport/handlers"
+	"simple_crud/pkg/storage"
+	"simple_crud/pkg/transport/handlers"
 )
 
 type server struct {

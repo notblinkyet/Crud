@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 	"net/http"
-	"simple_crud/internal/storage"
+	"simple_crud/pkg/storage"
 	"strconv"
 )
 

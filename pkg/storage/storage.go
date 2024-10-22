@@ -1,6 +1,6 @@
 package storage
 
-import "simple_crud/internal/models"
+import "simple_crud/pkg/models"
 
 type Storage interface {
 	Create(task *models.Task) (int, error)

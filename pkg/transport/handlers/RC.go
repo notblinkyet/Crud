@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"net/http"
-	"simple_crud/internal/storage"
+	"simple_crud/pkg/storage"
 )
 
 func RCHandler(dbStorage storage.Storage) http.HandlerFunc {

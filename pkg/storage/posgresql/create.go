@@ -2,7 +2,7 @@ package posgresql
 
 import (
 	"context"
-	"simple_crud/internal/models"
+	"simple_crud/pkg/models"
 )
 
 func (storage *PostgresStorage) Create(task *models.Task) (int, error) {
