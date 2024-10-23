@@ -17,11 +17,11 @@
 
 ### 1. Модели
 
-Модель задачи Task описана в [internal/models/task.go](https://github.com/notblinkyet/Crud/blob/master/pkg/models/task.go). Это Go-структура, представляющая сущность задачи и ее свойства.
+Модель задачи Task описана в [pkg/models/task.go](https://github.com/notblinkyet/Crud/blob/master/pkg/models/task.go). Это Go-структура, представляющая сущность задачи и ее свойства.
 
 ### 2. Интерфейс работы с базой данных
 
-Интерфейс для взаимодействия с базой данных описан в [internal/storage/storage.go](https://github.com/notblinkyet/Crud/blob/master/pkg/storage/storage.go). Он включает следующие методы:
+Интерфейс для взаимодействия с базой данных описан в [pkg/storage/storage.go](https://github.com/notblinkyet/Crud/blob/master/pkg/storage/storage.go). Он включает следующие методы:
 - Create — создание новой задачи.
 - ReadId — получение задачи по её ID.
 - ReadAll — получение списка всех задач.
@@ -32,7 +32,7 @@
 
 ### 3. Работа с PostgreSQL
 
-Реализация методов работы с PostgreSQL находится в [internal/storage/posgresql](https://github.com/notblinkyet/Crud/tree/master/pkg/storage/posgresql). Для взаимодействия с базой данных используется пакет pgx.
+Реализация методов работы с PostgreSQL находится в [pkg/storage/posgresql](https://github.com/notblinkyet/Crud/tree/master/pkg/storage/posgresql). Для взаимодействия с базой данных используется пакет pgx.
 
 ### 4. Хэндлеры HTTP-запросов
 
@@ -44,7 +44,7 @@
 
 ### 6. Конфигурация
 
-Конфигурация приложения задается в файле config.yaml и описана в [internal/config/config.go](https://github.com/notblinkyet/Crud/blob/master/pkg/config/config.go). Для работы с конфигурацией используется пакет gopkg.in/yaml.v3.
+Конфигурация приложения задается в файле config.yaml и описана в [pkg/config/config.go](https://github.com/notblinkyet/Crud/blob/master/pkg/config/config.go). Для работы с конфигурацией используется пакет gopkg.in/yaml.v3.
 
 ### 7. Точка входа в приложение
 
